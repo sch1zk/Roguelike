@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://daxhlmxmf57q"]
+
+[node name="ObjectDoor" type="Node2D"]
+y_sort_enabled = true
+
+[node name="Frame2" type="Sprite2D" parent="."]
+offset = Vector2(0, -8)
+
+[node name="Frame1" type="Sprite2D" parent="."]
+offset = Vector2(0, -8)
+
+[node name="Sprite" type="Sprite2D" parent="."]
+offset = Vector2(0, -8)

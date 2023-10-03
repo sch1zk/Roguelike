@@ -1,0 +1,7 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3]
+
+[ext_resource type="Shader" path="res://Materials/Walls.gdshader" id="1_jxe3e"]
+
+[resource]
+shader = ExtResource("1_jxe3e")
+shader_parameter/offset = Vector2(0, 32)

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnjrhijwyjr34"]
+
+[sub_resource type="SystemFont" id="SystemFont_045iy"]
+font_names = PackedStringArray("Open Sans")
+font_style = 1
+
+[sub_resource type="LabelSettings" id="LabelSettings_5jnfa"]
+font = SubResource("SystemFont_045iy")
+
+[node name="Debug" type="CanvasLayer"]
+visible = false
+
+[node name="Parameters" type="Label" parent="."]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 214.0
+offset_bottom = 36.0
+label_settings = SubResource("LabelSettings_5jnfa")
